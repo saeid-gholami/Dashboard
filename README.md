@@ -4,4 +4,4 @@
 ###### This project is not related to the server side and backend
 
 # Run
-## To run dis roject click [this link](https://saeid-gholami.github.io/Dashboard/)
+## To run this roject click [this link](https://saeid-gholami.github.io/Dashboard/)

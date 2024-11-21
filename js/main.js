@@ -17,5 +17,11 @@ const removeActiveClass = () => {
 
 window.addEventListener("load", () => {
     let savedThemeMode = localStorage.getItem("theme");
-    document.documentElement.setAttribute("data-bs-theme", savedThemeMode)
+    document.documentElement.setAttribute("data-bs-theme", savedThemeMode);
+    removeActiveClass();
+    themeColorBtns.forEach(themeColorBtn => {
+        if (savedThemeMode === themeColorBtn.dataset.theme) {
+            themeColorBtn.classList.add("active")
+        }
+    })
 })
